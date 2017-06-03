@@ -68,13 +68,3 @@ configurations {
     compile.extendsFrom provided
 }
 
-//task executableJar(type: Jar, dependsOn: jar) {
-//    archiveName = "${executableBaseName}.jar"
-//    manifest {
-//        attributes 'Main-Class': mainClassName
-//    }
-//    zip64=true
-//    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-//    from "$buildDir/classes/main"
-//    from "$buildDir/resources/main"
-//}

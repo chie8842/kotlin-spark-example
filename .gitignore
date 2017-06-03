@@ -1,8 +1,11 @@
 .gradle*
-lib
+lib*
 .idea
+.idea/*
 *.iml
 DS_Store
 out
+out/*
 build
+build/*
 *META-INF*
